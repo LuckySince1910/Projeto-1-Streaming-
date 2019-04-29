@@ -1,0 +1,45 @@
+*{ 
+	margin:0px;
+	padding: 0px;
+}
+body{
+	background-color: #EAEBEB;
+	background-image: url("../IMAGENS/fundo02.PNG");
+	background-repeat: no-repeat;
+	background-size: 800px;
+	background-position: 120% 45%;
+	color: black;
+	font-family: arial;
+}
+input{
+	display: block;
+	height: 55px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 30px;
+	border: 1px solid black;
+	font-size: 16pt;
+	padding: 10px 20px;
+	outline: none;
+}
+
+div#corpo-form{
+	/*background-color: orange;*/
+	width: 420px;
+	margin: 150px auto 0px auto;
+}
+div#corpo-form-Cad
+{
+	/*background-color: orange;*/
+	width: 420px;
+	margin: 150px auto 0px 270px;
+}
+div#corpo-form h1, div#corpo-form-Cad{
+	text-align: center;
+	padding: 20px;
+}
+input[type=submit]{
+	background-color: #057DBD;
+	border: none;
+	cursor: pointer;
+}
