@@ -4,9 +4,9 @@
 }
 body{
 	background-image: url("../IMAGENS/fundo01.JPG");
-	background-size: 2000px;
+	background-size: 1600px;
 	background-position: 80% 40%;
-	color: white;
+	color: #6C6C6C;
 	font-family: arial;
 }
 input{
@@ -18,6 +18,7 @@ input{
 	border: 1px solid black;
 	font-size: 16pt;
 	padding: 10px 20px;
+	outline: none;
 }
 
 div#corpo-form{
@@ -25,10 +26,17 @@ div#corpo-form{
 	width: 420px;
 	margin: 150px auto 0px auto;
 }
-div#corpo-form h1{
+div#corpo-form-Cad
+{
+	/*background-color: orange;*/
+	width: 420px;
+	margin: 100px auto 0px auto;
+}
+div#corpo-form h1, div#corpo-form-Cad{
 	text-align: center;
 	padding: 20px;
 }
+
 a{
 	color: white;
 	text-decoration: none;
@@ -37,4 +45,10 @@ a{
 }
 a:hover{
 	text-decoration: underline;
+}
+
+input[type=submit]{
+	background-color: #057DBD;
+	border: none;
+	cursor: pointer;
 }
